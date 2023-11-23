@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+nav {
+    height: 86px;
+    background: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+
+
+}
+
+nav>h1 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav>div>a {
+    color: #000;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-inline: 20px;
+    /*padding inline means padding in left and right on same tym  */
+
+}
+
+#about-us-section {
+    display: flex;
+    width: 95vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+
+
+
+
+}
+
+#about-us-image>img {
+    width: 697px;
+    height: 482px;
+
+}
+
+#about-us-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#about-us-main-container>h1 {
+
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+#about-us-main-container>p {
+
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+#about-us-main-container>button {
+    width: 323px;
+    height: 66px;
+    border-radius: 500px;
+    background: #FCAF02;
+    border: none;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#form {
+    margin-top: 100px;
+}
+
+#form>h2 {
+    color: #FCAF02;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input {
+    height: 82px;
+    background-color: #000;
+    color: #FCAF02;
+    padding: 20px;
+    width: 100%;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    margin-top: 40px;
+
+}
+
+::placeholder {
+    color: #FCAF02;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 30px;
+
+}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+
+form>button {
+    width: 325px;
+    height: 82px;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    background: #FCAF02;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+table{
+   
+    border: 2px solid #FCAF02;
+    width: 95vw;
+    margin: auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+    color: #FCAF02;
+    margin-bottom: 50px;
+
+
+
+}
+th{
+    border: 2px solid #FCAF02;
+    padding: 20px;
+    text-align: left;
+    font-size: 28px;
+}
+td{
+    border-right : 2px solid #FCAF02;
+    padding: 20px;
+}
+tfoot>tr{
+    background-color: #FCAF02;
+    color: #000;
+}
+tfoot>tr>td{
+    border-right: 2px solid black;
+
+
+}
